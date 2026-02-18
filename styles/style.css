@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+picture {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+a,
+dialog {
+  padding: 0;
+  color: currentColor;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border: none;
+}
+
+button,
+a:focus {
+  outline: none;
+}
+
+button,
+a:focus-visible {
+  outline: none;
+}
+
+.page {
+  background-color: var(--bg-color)
+}
+
+.section__header {
+  color: var(--decorate-color);
+  font-size: var(--header-text-size);
+  font-family: var(--font-main);
+  text-align: center;
+}
+
+
+@keyframes rotation {
+  from {
+    transform: translateX(-50%) rotate(0);
+  }
+  to {
+    transform: translateX(-50%) rotate(360deg);
+  }
+}
+
+@keyframes change-color-point {
+  from {
+    fill: var(--poster-text-color);
+  }
+  to {
+    fill: var(--decorate-color);
+  }
+}
+
+@keyframes change-color-stroke {
+  from {
+    stroke: var(--decorate-color);
+  }
+  to {
+    stroke: var(--poster-text-color);
+  }
+}
+
+@keyframes text-pulse {
+  from {
+    color: var(--decorate-color);
+  }
+  to {
+    color: var(--text-color);
+  }
+}

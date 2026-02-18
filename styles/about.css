@@ -1,0 +1,58 @@
+.about__container {
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.about .section__header {
+  padding-top: 25px;
+}
+
+.circle {
+  min-inline-size: 75%;
+  display: block;
+  animation: rotation 40s linear infinite;
+  transform-origin: center;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  margin: auto;
+}
+
+.circle__point {
+  animation: change-color-point 5s ease infinite alternate-reverse;
+}
+
+.circle__stroke {
+  animation: change-color-stroke 15s ease infinite alternate-reverse;
+}
+
+.about__text {
+  color: var(--text-color);
+  font-family: var(--font-text);
+  font-weight: 300;
+  line-height: 120%;
+  text-align: center;
+  margin: auto;
+  text-wrap: pretty;
+  will-change: color;
+}
+
+.about .about__text {
+  margin-top: 20px;
+}
+
+.about__text:last-of-type {
+  font-family: var(--font-main);
+  font-size: 25px;
+  color: var(--decorate-color);
+  margin: 20px 0;
+  animation: text-pulse 2s ease-in-out infinite alternate-reverse;
+}
+
+.about__img {
+  inline-size: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0 0 50% 50%;
+}

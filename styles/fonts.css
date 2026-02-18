@@ -1,0 +1,40 @@
+@font-face {
+  font-display: swap;
+  font-family: "Amatic SC";
+  src: url(/fonts/Amatic_SC/amatic-sc-v28-cyrillic_latin-regular.woff2) format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Amatic SC";
+  src: url(/fonts/Amatic_SC/amatic-sc-v28-cyrillic_latin-700.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat/montserrat-v31-cyrillic_latin-regular.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+@font-face {
+  font-display: swap;
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat/montserrat-v31-cyrillic_latin-regular.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Montserrat";
+  src: url(/fonts/Montserrat/montserrat-v31-cyrillic-300.woff2) format("woff2");
+  font-style: normal;
+  font-weight: 300;
+}

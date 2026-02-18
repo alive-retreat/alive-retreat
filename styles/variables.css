@@ -1,0 +1,32 @@
+/* Breakpoints:
+
+xs 360px >= width > 568px
+s 568px >= width > 768px
+m 768px >= width > 1024px
+l 1024px >= width > 1300px
+xl 1300px >= width
+
+max-width (container) 1680px
+
+*/
+
+:root {
+
+  /* Типографика */
+
+  --font-main: 'Amatic SC', sans-serif;
+  --font-text: 'Montserrat', sans-serif;
+  --poster-text-size: 45px;
+  --header-text-size: 30px;
+
+  /* Цвета */
+
+  --bg-color: #040605;
+  --decorate-color: #543825;
+  --text-color: #FFE7A7;
+  --poster-text-color: #DCB56B;
+
+  /* Лэйаут */
+
+  
+}

@@ -1,0 +1,46 @@
+.poster {
+  /* background-image: url(/images/poster.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  min-block-size: 100dvb;
+  position: relative;
+}
+
+.poster__video {    /* Фиксируем видео относительно экрана */
+  width: 100dvi;         /* Ширина — 100% ширины окна */
+  height: 100dvb;        /* Высота — 100% высоты окна */
+  object-fit: cover;    /* Заполнение без искажений, с обрезкой */
+}
+
+.poster__text {
+  font-family: var(--font-main);
+  color: var(--poster-text-color);
+  font-size: var(--poster-text-size);
+  font-weight: 700;
+  position: absolute;
+}
+
+.poster .poster__text {
+  text-transform: uppercase;
+}
+
+.poster .poster__text:nth-child(1) {
+  left: 15px;
+  top: 30px;
+}
+
+.poster .poster__text:nth-child(2) {
+  right: 15px;
+  top: 30px;
+}
+
+.poster .poster__text:nth-child(3) {
+  left: 15px;
+  bottom: 30px;
+}
+
+.poster .poster__text:nth-child(4) {
+  right: 15px;
+  bottom: 30px;
+}
