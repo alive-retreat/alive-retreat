@@ -6,12 +6,12 @@
 
 
   <link rel="icon" href=".ico" />
-  <link rel="icon" href=".svg" />
+  <link rel="icon" href="./assets/fav1-CDrzi72u.svg" />
   <link rel="apple-touch-icon" href=".png" />
 
-  <title>Document</title>
-  <script type="module" crossorigin src="./assets/index-DyqNt1GJ.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-DJ6vPx_E.css">
+  <title>Ретрит Живая</title>
+  <script type="module" crossorigin src="./assets/index-Dvl_o57Y.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CKgqNKIl.css">
 </head>
 <body class="page">
   <main class="main">
@@ -37,7 +37,7 @@
         <svg xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 331 331"
-        class="circle"
+        class="circle circle__start"
         >
           <circle class="circle__point" cx="310.5" cy="89.5" r="6" fill="#543825"/>
           <circle class="circle__point" cx="89.5" cy="20.5" r="6" fill="#543825"/>
@@ -62,7 +62,7 @@
           </div>
           <p class="masters__paragraph">художница, фасилитатор «Открытого Диалога», МАК-терапевт, коуч ICF и автор творческих практик</p>
         </li>
-        <li>
+        <li class="decorate-list-item">
           <svg xmlns="http://www.w3.org/2000/svg" 
           viewBox="0 0 263 12"
           fill="none"
@@ -79,7 +79,7 @@
             <span class="masters__img-desc">Татьяна Малахова</span>
           </div>
         </li>
-        <li>
+        <li class="decorate-list-item">
           <svg xmlns="http://www.w3.org/2000/svg" 
           viewBox="0 0 263 12"
           fill="none"
@@ -101,6 +101,26 @@
     </section>
     <section class="programm">
       <h2 class="section__header">Программа</h2>
+      <!-- <div class="embla">
+        <div class="embla__viewport">
+          <div class="embla__container"></div>
+        </div>
+        <button class="embla__prev">Scroll to prev</button>
+        <button class="embla__next">Scroll to next</button>
+        <div class="embla__dots"></div>
+      </div> -->
+      <div class="programm__container">
+        <div class="programm__title">
+          <span class="programm__day">День 1</span>
+          <span class="programm__date">13 марта</span>
+          <span class="programm__desc">Метаморфоза</span>
+        </div>
+        <p>Встречаемся в Москве, на Киевском вокзале в 14:00, отправляемся вместе в Дом Отдыха «Мелодия Леса».</p>
+        <p>По прибытии мы заселимся в уютные номера и начнём наше мягкое знакомство с пространством, методом Открытого Диалога и друг с другом.</p>
+        <img class="programm__img" src="./assets/day1-BDpE0mPm.webp" alt="">
+        <p>После нас будет ждать вкусный ужин и глубокая телесная практика, которая поможет телу отпустить напряжение и начать доверять процессу.</p>
+        <p>Завершением дня станут первые расслабляющие массажи — бережные и внимательные прикосновения вернут тело в «здесь и сейчас», подарят удовольствие и сладкую негу!</p>
+      </div>
     </section>
     <section class="price">
       <h2 class="section__header">Что включено в стоимость</h2>
@@ -131,8 +151,26 @@
         <span class="price__text-desc">Стоимость</span>
         <span class="price__decor-text">33 333 рублей</span>
         <span class="price__text-desc">(все включено)</span>
+        <div class="price__clip-container">
+          <svg xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 331 331"
+            class="circle circle__end"
+          >
+            <circle class="circle__point" cx="310.5" cy="89.5" r="6" fill="#543825"/>
+            <circle class="circle__point" cx="89.5" cy="20.5" r="6" fill="#543825"/>
+            <circle class="circle__point" cx="20.5" cy="241.5" r="6" fill="#543825"/>
+            <circle class="circle__point" cx="241.5" cy="310.5" r="6" fill="#543825"/>
+            <circle class="circle__stroke" cx="165.5" cy="165.5" r="165" stroke="#543825" stroke-dasharray="144.5 116.5" stroke-linecap="round"/>
+            </svg>
+        </div>
       </div>
     </section>
   </main>
+  <template id="programm-slide-template">
+    <div class="embla__slide programm__slide">
+      
+    </div>
+  </template>
 </body>
 </html>
